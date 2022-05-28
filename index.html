@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src= "https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App w/Geo Location</title>
+  </head>
+  <body>
+ <body>
+    <div class="container">
+      <div class ="weather-widget">
+      <h1>Weather News 🌤️🌧️ 💨</h1>
+      <div class = "row">
+      <div class="col-6">
+      <form class"query" id= "search-query">
+        <div class="col-6">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Search for weather by location</label
+          >
+          <input
+            type="search"
+            class="form-control"
+            placeholder="Enter City Name"
+            id="city-input"
+            autofocus = on;
+          />
+          <input class="btn btn-primary" type="submit" value="Submit">
+          </form>
+           </div>
+        </br>  
+        
+        <h2 id="city" >San Antionio, Texas</h2>
+      
+         
+        </ul>
+        <div class ="row">
+        <div class="col-6">
+        <div class = "weathersymbol">☀️</div>
+        <div class = "forecast">Sunny</div> 
+        
+        <span class=" currentTemp">88° High/67° Low</span>
+           </ul>
+        </div>
+        <div class="col-6">
+          <ul>
+            <li id="date"></li>
+            <li> id= "Percipitation"></li>
+            <li> id="Humidity"></li>
+            <li> id= "Wind"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <script src="src/index.js"></script>
+  </body>
+</html>

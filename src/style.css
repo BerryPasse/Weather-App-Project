@@ -1,0 +1,36 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-control {
+  width: 300px;
+}
+
+li {
+  list-style: none;
+}
+.forecast {
+  font-size: 25px;
+  font-weight: 30px;
+}
+.currentTemp {
+  font-size: 25px;
+  font-weight: 30px;
+}
+.weathersymbol {
+  font-size: 60px;
+  display: inline-block;
+}
+
+.btn-primary {
+  margin-top: 20px;
+}
+
+.weather-widget {
+  background-color: #e8f9fd;
+  border: 1px solid rgb(129, 124, 124);
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  border-radius: 5px;
+}
